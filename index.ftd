@@ -1,40 +1,213 @@
--- ds.page: Welcome to doc-site
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #79AC78
+
+-- ftd.row:
+width: fill-container
+spacing: space-evenly
+padding-vertical.px: 20
+
+-- ftd.text: Home
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: Blog
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: Contact
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: Resume
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: Talks
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: About
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: Essays
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- ftd.text: Documentation
+style: underline,bold
+role: $inherited.types.copy-small
+link: index.html
+color: #D0E7D2
+
+-- end: ftd.row
+
+-- ftd.row:
+width: fill-container
+spacing: space-evenly
+padding-vertical.px: 20
+
+-- ftd.column:
+width: fill-container
+padding-left.px: 230 
+
+-- ftd.image:
+src: $assets.files.assets.mine.jpg
+width.fixed.px: 300
+height.fixed.px: 550
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.text: Contact
+style: underline,bold
+role: $inherited.types.copy-regular
+color: #D0E7D2
+link: https://wa.me/9831070453
+open-in-new-tab: true 
+padding-vertical.px: 10 
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- end: ftd.column
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.column:
+width: fill-container
 
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: Sreejita Dutta
+style: bold
+role: $inherited.types.heading-medium
+link: index.html
+color: #618264
+align-self: start
+padding-bottom.px: 20 
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.text: Skills
+style: bold
+role: $inherited.types.copy-regular
+color: #D0E7D2
+padding-bottom.px: 15
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: ☆ Go, Lua, Haskell, C, Rust and other languages:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text: ☆ Docker (deployment, development & more):
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: ☆ Mashups of data:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
 
--- end: ds.page
+-- ftd.text: ☆ Kubernetes:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+
+
+
+
+
+
+-- ftd.text: Highlighted Projects
+style: bold
+role: $inherited.types.copy-regular
+color: #D0E7D2
+padding-top.px: 20
+padding-bottom.px: 15
+
+
+-- ftd.text: ✿ Personal Portfolio:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: index.html
+style: italic
+
+
+-- ftd.text: ✿ Social Media:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: index.html
+style: italic
+
+-- ftd.text: ✿ Shopping App:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: index.html
+style: italic
+
+-- ftd.text: ✿ Game App:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: index.html
+style: italic
+
+-- ftd.text: ✿ E-commerce Website:
+role: $inherited.types.blockquote
+color: #D0E7D2
+style: italic
+padding-bottom.px: 10
+link: index.html
+
+-- ftd.text: ✿ Tic Tac Toe:
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: index.html
+style: italic
+
+
+
+
+-- ftd.text: Quick Links
+style: bold
+role: $inherited.types.copy-regular
+color: #D0E7D2
+padding-top.px: 20
+padding-bottom.px: 15
+
+
+-- ftd.text: ❁ Github
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: https://github.com/sreejitaduttaa
+style: italic
+open-in-new-tab: true 
+
+-- ftd.text: ❁ Discord
+role: $inherited.types.blockquote
+color: #D0E7D2
+padding-bottom.px: 10
+link: https://discord.com/channels/774948048916840469
+open-in-new-tab: true 
+style: italic
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
