@@ -590,7 +590,7 @@
 </head>
 <body style="height: 100%; margin: 0;">
 
-<div data-id="main" style="height: 100%; width: 100%" class="ft_common ft_column"></div>
+<div data-id="main" style="height: 100%; width: 100%" class="ft_common ft_column"><div data-id="0:main" style="background-color: rgba(121,172,120,1); height: 100%; width: 100%" class="ft_common ft_column"><a data-id="0,0:main" href="index.html" style="align-self: center; color: rgba(208,231,210,1); font-family: sans-serif; font-size: 38px; font-weight: 700; line-height: 57px; padding: 100px; padding-bottom: 20px" class="ft_common ft_md">This is my essay</a></div></div>
 
 <script src="default-FC5F9B71655904B1A74A313AABC497A862009762906B34152BC69284D61C25B5.js"></script>
 <script>
@@ -709,7 +709,62 @@ a.value = v
 }
 
 
+window.node_change_main = {};
+window.node_change_main["0,0:main__font-family"] = function(data) {
+if(data["ftd#device"] == "desktop"){
+document.querySelector(`[data-id="0,0:main"]`).style["font-family"] = eval(`({0})["font-family"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).desktop)));
+}
+else {document.querySelector(`[data-id="0,0:main"]`).style["font-family"] = eval(`({0})["font-family"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).mobile)));}
+}
 
+window.node_change_main["0,0:main__font-size"] = function(data) {
+if(data["ftd#device"] == "desktop"){
+document.querySelector(`[data-id="0,0:main"]`).style["font-size"] = eval(`({0})["size"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).desktop)));
+}
+else {document.querySelector(`[data-id="0,0:main"]`).style["font-size"] = eval(`({0})["size"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).mobile)));}
+}
+
+window.node_change_main["0,0:main__font-weight"] = function(data) {
+document.querySelector(`[data-id="0,0:main"]`).style["font-weight"] = "700";
+}
+
+window.node_change_main["0,0:main__letter-spacing"] = function(data) {
+if(data["ftd#device"] == "desktop"){
+document.querySelector(`[data-id="0,0:main"]`).style["letter-spacing"] = eval(`({0})["letter-spacing"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).desktop)));
+}
+else {document.querySelector(`[data-id="0,0:main"]`).style["letter-spacing"] = eval(`({0})["letter-spacing"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).mobile)));}
+}
+
+window.node_change_main["0,0:main__line-height"] = function(data) {
+if(data["ftd#device"] == "desktop"){
+document.querySelector(`[data-id="0,0:main"]`).style["line-height"] = eval(`({0})["line-height"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).desktop)));
+}
+else {document.querySelector(`[data-id="0,0:main"]`).style["line-height"] = eval(`({0})["line-height"]`.format(JSON.stringify(resolve_reference("ftd#default-types.heading-medium", data).mobile)));}
+}
+window.set_value_main = {};
+window.set_value_main["ftd#default-types"] = function (data, new_value, remaining) {
+window.ftd.utils.set_value_helper(data, "ftd#default-types", remaining, new_value);
+
+window.ftd.call_mutable_value_changes("ftd#default-types", "main");
+window.ftd.call_immutable_value_changes("ftd#default-types", "main");
+window.ftd.utils.node_change_call("main","0,0:main__letter-spacing", data);
+window.ftd.utils.node_change_call("main","0,0:main__font-weight", data);
+window.ftd.utils.node_change_call("main","0,0:main__font-size", data);
+window.ftd.utils.node_change_call("main","0,0:main__line-height", data);
+window.ftd.utils.node_change_call("main","0,0:main__font-family", data);
+};
+
+window.set_value_main["ftd#device"] = function (data, new_value, remaining) {
+window.ftd.utils.set_value_helper(data, "ftd#device", remaining, new_value);
+
+window.ftd.call_mutable_value_changes("ftd#device", "main");
+window.ftd.call_immutable_value_changes("ftd#device", "main");
+window.ftd.utils.node_change_call("main","0,0:main__font-size", data);
+window.ftd.utils.node_change_call("main","0,0:main__font-weight", data);
+window.ftd.utils.node_change_call("main","0,0:main__line-height", data);
+window.ftd.utils.node_change_call("main","0,0:main__letter-spacing", data);
+window.ftd.utils.node_change_call("main","0,0:main__font-family", data);
+};
 
 
 
