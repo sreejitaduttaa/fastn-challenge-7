@@ -1,0 +1,17 @@
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #79AC78
+
+-- ftd.text: These are my blogs
+style: bold
+padding.px: 100
+role: $inherited.types.heading-medium
+link: index.html
+align-self: center
+padding-bottom.px: 20 
+color: #D0E7D2
+
+
+-- end: ftd.column

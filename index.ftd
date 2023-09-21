@@ -18,43 +18,43 @@ color: #D0E7D2
 -- ftd.text: Blog
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /blog
 color: #D0E7D2
 
 -- ftd.text: Contact
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /contact
 color: #D0E7D2
 
 -- ftd.text: Resume
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /resume
 color: #D0E7D2
 
 -- ftd.text: Talks
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /talks
 color: #D0E7D2
 
 -- ftd.text: About
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /about
 color: #D0E7D2
 
 -- ftd.text: Essays
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /essays
 color: #D0E7D2
 
 -- ftd.text: Documentation
 style: underline,bold
 role: $inherited.types.copy-small
-link: index.html
+link: /documentation
 color: #D0E7D2
 
 -- end: ftd.row
@@ -74,7 +74,7 @@ width.fixed.px: 300
 height.fixed.px: 550
 
 
--- ftd.text: Contact
+-- ftd.text: Contact Me
 style: underline,bold
 role: $inherited.types.copy-regular
 color: #D0E7D2
@@ -122,8 +122,6 @@ padding-bottom.px: 10
 role: $inherited.types.blockquote
 color: #D0E7D2
 padding-bottom.px: 10
-
-
 
 
 
@@ -198,11 +196,11 @@ link: https://github.com/sreejitaduttaa
 style: italic
 open-in-new-tab: true 
 
--- ftd.text: ❁ Discord
+-- ftd.text: ❁ LinkedIn
 role: $inherited.types.blockquote
 color: #D0E7D2
 padding-bottom.px: 10
-link: https://discord.com/channels/774948048916840469
+link: https://www.linkedin.com/in/sreejitaduttaa/
 open-in-new-tab: true 
 style: italic
 
